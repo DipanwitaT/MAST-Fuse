@@ -1,8 +1,8 @@
-# MuSTIPest: Multimodal Pest Dataset Generation with Lotka–Volterra Dynamics
+# Multimodal Pest Dataset Generation with Lotka–Volterra Dynamics
 
 ## Overview
 
-This repository provides the data-generation pipeline for **MuSTIPest**, a multimodal dataset designed for machine-learning-based pest population prediction.
+This repository provides the data-generation pipeline for **MAST-Fuse**, a multimodal dataset designed for machine-learning-based pest population prediction.
 
 The dataset integrates heterogeneous environmental modalities collected across multiple growing seasons and geographic locations:
 
