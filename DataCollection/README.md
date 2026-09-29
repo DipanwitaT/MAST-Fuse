@@ -742,7 +742,7 @@ MAST-Fuse/
 │
 ├── scripts/
 │   ├── preprocess_data.py
-│   ├── generate_lv_target.py
+│   ├── lotka_volterra_target.py
 │   └── build_dataset.py
 │
 ├── configs/
@@ -812,7 +812,7 @@ conda activate mast-fuse
 After preparing the environmental input data according to the repository instructions, run:
 
 ```bash
-python scripts/generate_lv_target.py
+python scripts/lotka_volterra_target.py
 ```
 
 or, if the complete pipeline is provided:
