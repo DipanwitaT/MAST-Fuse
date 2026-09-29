@@ -81,8 +81,9 @@ The dataset covers five growing seasons:
 2024
 2025
 
+---
 
-# 4. LV-Based Synthetic Aphid Target Generation
+# 4. **LV-Based Synthetic Aphid Target Generation**
 
 ## Overview
 
