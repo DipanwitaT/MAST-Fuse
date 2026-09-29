@@ -1,5 +1,3 @@
-#Author - Dipanwita Thakur
-
 from pathlib import Path
 import torch
 
