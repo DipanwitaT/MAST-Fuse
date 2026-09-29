@@ -1,4 +1,3 @@
-# Author - Dipanwita Thakur
 from pathlib import Path
 import json
 import random
