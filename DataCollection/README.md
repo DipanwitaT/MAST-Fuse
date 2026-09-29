@@ -220,12 +220,14 @@ Temperature suitability is represented using a bounded triangular response:
 
 $$
 f_T(T)=
-\begin{cases}
-0, & T\leq5,\\[4pt]
-\dfrac{T-5}{25-5}, & 5<T<25,\\[8pt]
-\dfrac{35-T}{35-25}, & 25\leq T<35,\\[8pt]
-0, & T\geq35.
-\end{cases}
+\left\{
+\begin{array}{ll}
+0, & T \leq 5, \\[4pt]
+\dfrac{T-5}{25-5}, & 5 < T < 25, \\[8pt]
+\dfrac{35-T}{35-25}, & 25 \leq T < 35, \\[8pt]
+0, & T \geq 35.
+\end{array}
+\right.
 $$
 
 The response uses:
