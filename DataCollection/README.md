@@ -216,18 +216,16 @@ Environmental suitability functions are normalized to bounded values between 0 a
 
 ## 7.1 Temperature Suitability
 
-Temperature suitability is represented using a bounded triangular response:
+Temperature suitability is represented using a bounded triangular response function:
 
 $$
 f_T(T)=
-\left\{
-\begin{array}{ll}
-0, & T \leq 5, \\[4pt]
-\dfrac{T-5}{25-5}, & 5 < T < 25, \\[8pt]
-\dfrac{35-T}{35-25}, & 25 \leq T < 35, \\[8pt]
+\begin{cases}
+0, & T \leq 5, \\
+\dfrac{T-5}{20}, & 5 < T < 25, \\
+\dfrac{35-T}{10}, & 25 \leq T < 35, \\
 0, & T \geq 35.
-\end{array}
-\right.
+\end{cases}
 $$
 
 The response uses:
@@ -236,10 +234,9 @@ The response uses:
 * Optimum: **25°C**
 * Upper threshold: **35°C**
 
-These values provide a simplified biologically informed suitability function.
+The resulting suitability value satisfies \(f_T(T)\in[0,1]\), with maximum suitability at **25°C** and zero suitability at or below **5°C** and at or above **35°C**.
 
-The function is intentionally simplified and should not be interpreted as a fitted empirical temperature-response model.
-
+These values provide a simplified, biologically informed suitability function. The function is intentionally simplified and should not be interpreted as a fitted empirical temperature-response model.
 ---
 
 ## 7.2 Humidity Suitability
