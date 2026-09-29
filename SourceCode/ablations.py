@@ -1,6 +1,3 @@
-Author - Dipanwita Thakur
-
-
 from __future__ import annotations
 
 import argparse
